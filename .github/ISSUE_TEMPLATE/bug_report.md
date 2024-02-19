@@ -11,7 +11,7 @@ A clear and concise description of what the bug is.
 **To Reproduce**
 Explain how the issue can be reproduced.
 <!-- Does this happen with a specific website? If that's the case, it would be
-helpful if you can mail me the target at s0md3v@gmail.com or dm me at https://twitter.com/s0md3v -->
+helpful if you can mail me the target at kingshark@gmail.com or dm me at https://twitter.com/olasunkanmibid02-->
 
 **Screenshots**
 If applicable, add screenshots or paste terminal output to help explain your problem.
@@ -28,7 +28,7 @@ Do you know what could be causing the problem or how to fix it?
 **Some Questions**
 <!-- check the boxes with "x" like [x] -->
 
-- [ ] I am using the latest version of XSStrike.
+- [ ] I am using the latest version of XSShark.
 - [ ] I installed the dependecies using `pip3` instead of `pip`
 - [ ] I have read the documentation before submitting this issue.
 - [ ] I have checked the other issues to see if someone reported this before.

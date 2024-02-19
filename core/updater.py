@@ -18,22 +18,22 @@ def updater():
         changelog = re.search(r"changes = '''(.*?)'''", latestCommit)
         changelog = changelog.group(1).split(
             ';')  # splitting the changes to form a list
-        logger.good('A new version of XSStrike is available.')
+        logger.good('A new version of XSShark now  is available.')
         changes_str = 'Changes:\n'
         for change in changelog:  # prepare changes to print
             changes_str += '%s>%s %s\n' % (green, end, change)
         logger.info(changes_str)
-        currentPath = os.getcwd().split('/')  # if you know it, you know it
+        currentPath = os.getcwd().split('/')  # if you know it, you know it lol 
         folder = currentPath[-1]  # current directory name
         path = '/'.join(currentPath)  # current directory path
         choice = input('%s Would you like to update? [Y/n] ' % que).lower()
 
         if choice != 'n':
-            logger.run('Updating XSStrike')
+            logger.run('Updating XSShark')
             os.system(
                 'git clone --quiet https://github.com/s0md3v/XSStrike %s' % (folder))
             os.system('cp -r %s/%s/* %s && rm -r %s/%s/ 2>/dev/null' %
                       (path, folder, path, path, folder))
             logger.good('Update successful!')
     else:
-        logger.good('XSStrike is up to date!')
+        logger.good('hi there your XSShark is now up to date!')
